@@ -25,5 +25,5 @@ The process repeatedly looks for three elements x, y, z, such that (x,y) and (y,
 is not in the relation.  If there is such a triplet of elements, then the pair (x,z) is added to the relation.  The process
 ends when there is no such triplet of elements.
 
-Repeat the following step until no pair is added to R.
+Repeat the following step until no pair is added to R.  
   If there are three elements x,y,z ∈ A such that (x,y) ∈ R, (y,z) ∈ R and (x,z) ∉ R, then add (x,z) to R
