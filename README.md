@@ -18,6 +18,10 @@ the pairs in $`R^{+}`$.  The same applies for directed graph G.
 
 ## Direct Method
 Graph each power of G (up to $`G^{k}`$) and combine every edge into $`G^{+}`$
+OR
+1. Take adjacency matrix A for graph G
+2. compute A^k by matrix multiplication
+3. A^k is adjacency matrix for G^k, thus G contains walk of lenght k iff entry in A^k = 1
 
 ## Alternate Method
 There is another way to find the transitive closure of a graph or relation that does not require computing the powers directly.
